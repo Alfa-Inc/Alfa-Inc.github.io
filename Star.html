@@ -9,6 +9,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      overflow: hidden;
     }
     .container {
       display: flex;
@@ -35,7 +36,7 @@
     }
     .credits {
       position: absolute;
-      top: 50%;
+      top: 100%;
       left: 50%;
       transform: translate(-50%, -50%);
       white-space: nowrap;
@@ -50,10 +51,10 @@
     }
     @keyframes creditsScroll {
       0% {
-        transform: translate(-50%, -50%);
+        top: 100%;
       }
       100% {
-        transform: translate(-50%, -150%);
+        top: -100%;
       }
     }
     @keyframes fadeOut {
@@ -81,6 +82,9 @@
   </div>
 
   <!-- Add your Star Wars music here manually -->
-    <audio src="star_wars_music.mp3" autoplay loop></audio>
+  <audio autoplay loop>
+    <source src="star_wars_music.mp3" type="audio/mpeg">
+  </audio>
+
 </body>
 </html>
