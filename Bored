@@ -1,0 +1,43 @@
+
+Make sure to replace star_wars_logo.png with the actual path to your Star Wars logo, and loading_icon.gif with an animated loading icon of your choice.
+
+Feel free to modify this code further to suit your needs, such as adding additional Star Wars-themed animations or customizing the styling to match the Star Wars aesthetic.
+
+
+
+
+
+User
+ok make it more interactive with text going up like credits in startwars. 
+The name of the website is Alfa Compliance
+ChatGPT
+Certainly! Here's an updated version of the "Under Construction" landing page inspired by Star Wars, with interactive text scrolling up like credits:
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Under Construction - Alfa Compliance</title>
+  <style>
+    body {
+      background-color: #000000;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .logo {
+      width: 200px;
+      margin-bottom: 40px;
+    }
+
+
