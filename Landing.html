@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alfa Compliance - Coming Soon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F5F5F5;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #FF4081;
+    }
+    p {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #FF4081;
+      color: #FFFFFF;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #E91E63;
+    }
+    .bg-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.6;
+    }
+    .bg-image img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .logo {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+    .animated-border {
+      position: relative;
+      display: inline-block;
+      padding: 20px;
+      overflow: hidden;
+    }
+    .animated-border::before,
+    .animated-border::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 100%;
+      border: 2px solid #FF4081;
+      transition: width 0.3s;
+    }
+    .animated-border::before {
+      top: 0;
+      left: 0;
+    }
+    .animated-border::after {
+      bottom: 0;
+      right: 0;
+    }
+    .animated-border:hover::before,
+    .animated-border:hover::after {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="animated-border">
+      <img src="your_logo.png" alt="Alfa Compliance Logo" class="logo">
+    </div>
+    <h1>Alfa Compliance</h1>
+    <p>Being built, coming soon to your neighborhood in Quebec</p>
+    <a href="#" class="cta-button">Build Your Website</a>
+  </div>
+  <div class="bg-image">
+    <img src="background_image.jpg" alt="Background Image">
+  </div>
+</body>
+</html>
